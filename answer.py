@@ -13,6 +13,7 @@ def calculate():
 
     return c,q,type_q
 
+
 def string_formating():
 
     math_pi = 3.141592653589793
@@ -31,11 +32,13 @@ def string_formating():
     ####
     small_number =13
 
-    # Format small_number to be a string and assign it to the variable center_string. The format for center_string
-    # should be Center aligned with a width of 10.
+    # Format small_number to be a string and assign it to the variable center_string. 
+    # The format for center_string should be Center aligned with a width of 10.
 
-    return string_pi,comma_string,exp_string,center_string,
+    # Format small_number to be a string and assign it to the variable left_string.
+    # The format for left_string should be Left aligned with a width of 10.
 
+    return string_pi,comma_string,exp_string,center_string,left_string
 
 
 def build_in():
@@ -52,6 +55,8 @@ def build_in():
     # (Please use the built-in Python function for absolute value)
 
     return math_pi,math_e,sin_pi,square_root_2,abs_2
+
+
 
 def set_op():
     S1 = {1, 2, 3, 4}
