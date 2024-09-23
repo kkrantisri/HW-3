@@ -68,7 +68,7 @@ class TestAnswer():
     def test_format_left(self):
         TestAnswer.__total__ += 1
         string_pi, comma_string, exp_string, center_string, left_string = answer.string_formating()
-        assert (left_string == "{:0>2d}".format(13))
+        assert (left_string == "{:<10}".format(13))
 
         TestAnswer.__correct__ += 1
 
